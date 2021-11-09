@@ -5,6 +5,7 @@
 		<meta name="google-site-verification" content="TbeVQ6R1UqPhvXZWy18tk528buT_bJCjrapqZyExW94" />
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Favicon-->
 		<link rel="shortcut icon" href="img/fav.png">
 		<!-- Author Meta -->
@@ -420,9 +421,14 @@
 					<h3 class="mb-30">Ticaret Yaptığımız Ülkeler</h3>
 					<div class="row">
 
-						<div class="col-md-3">
-							<img src="img/satis.png" alt="" class="">
-						</div>
+						<picture>
+						
+							<source media="(min-width:650px)" srcset="img/satis.png">
+ 							 <source media="(min-width:465px)" srcset="img/satis.png">
+							<img src="img/satis.png" width="100%" height="100%" />
+						
+					</picture>
+					
 					<!---	<div class="col-md-9 mt-sm-20">
 							<br><br><p>Rusya, Azerbaycan, </p> 	<p>Suudi Arabistan, Cezayir,</p> 	<p>Mısır, Tunus, </p> 	<p>Fransa, Irak, </p> 	<p>Kıbrıs, Nijerya.</p>
 						</div> ---->
